@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="show">summa</h1>
+        <button id="btn">change</button>
+    </div>
+    <script>
+        var cont = document.getElementById("container");
+        var show_color = document.getElementById("show");
+        var button = document.getElementById("btn");
+        var backgroundColors = [
+    "red",
+    "green",
+    "blue",
+    "yellow",
+    "purple",
+    "orange",
+    "pink",
+    "teal",
+    "brown",
+    "gray"
+  ]
+  button.addEventListener("click",function(){
+    for(var i = 0; i<backgroundColors.length; i++){
+        show_color.textContent = backgroundColors[i];
+    }
+  })
+ 
+    </script>
+</body>
+</html>
