@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .new_box{
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        margin: 10px;
+      }
+    </style>
+</head>
+<body>
+    <button id="add_cont">add</button>
+    <div class="container">
+        
+
+
+    </div>
+    <script>
+        const main = document.querySelector(".container");
+        const add_container = document.getElementById("add_cont");
+        add_container.addEventListener("click",function(){
+            const div = document.createElement("div");
+            div.innerHTML  = "new box";
+            div.classList.add("new_box");
+            main.appendChild(div);
+        })
+       
+    </script>
+</body>
+</html>

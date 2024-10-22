@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="display">show</h1>
+        <button class ="btn thayub">increase</button>
+        <button class ="btn buyath">decrease</button>
+        <button class ="btn yuva">final</button>
+    </div>
+    <script>
+        var btns = document.querySelectorAll(".btn");
+        var head  = document.getElementById("display");
+        btns.forEach(function (items){
+            items.addEventListener("click",function(e) {
+                const styles = e.currentTarget.classList;
+                if(styles.contains("thayub")){
+                    head.textContent  ="summa";
+                }
+                else if(styles.contains("buyath")){
+                    head.textContent = "thayub";
+                }
+                else{
+                    head.textContent  = "allah";
+                }
+            })
+        })
+
+        //  this is for only test purpose;
+        
+    </script>
+</body>
+</html>
