@@ -8,14 +8,14 @@ const suprise_btn = document.getElementById("suprise_btn");
 
 
 var datas = [{
-    employee_img :"../image_slider/assets/images/thayub.jpg",
+    employee_img :"image_slider/assets/images/thayub.jpg",
     name  : "Mohideen Thayub",
     role : "Cyber security engineer",
     about :"Cybersecurity excites me, as it offers the challenge of safeguarding data, networks, and systems from evolving digital threats.",
 
 },{
     
-        employee_img :"../image_slider/assets/images/sherif.jpg",
+        employee_img :"image_slider/assets/images/sherif.jpg",
         name  : "Mohamed Sherif",
         role : "Web engineer",
         about :"I'm passionate about web engineering, where creativity and technology unite to build seamless, responsive, and dynamic user experiences.",
@@ -25,7 +25,7 @@ var datas = [{
 },
 {
     
-    employee_img :"../image_slider/assets/images/venkat.jpg",
+    employee_img :"image_slider/assets/images/venkat.jpg",
     name  : "venkatesh sivakumar",
     role : "Software engineer",
     about : "I'm passionate about software engineering, where problem-solving, coding, and innovation come together to create impactful and efficient software solutions.",
@@ -35,7 +35,7 @@ var datas = [{
 },
 {
     
-    employee_img :"../image_slider/assets/images/naveen.jpg",
+    employee_img :"image_slider/assets/images/naveen.jpg",
     name  : "Naveen sathyamoorthy",
     role : "Test Lead ",
     about :"I'm passionate about testing, ensuring software quality and reliability through thorough validation, identifying bugs, and enhancing user satisfaction.",
