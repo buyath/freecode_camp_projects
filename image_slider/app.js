@@ -37,7 +37,7 @@ var datas = [{
     
     employee_img :"image_slider/assets/images/naveen.jpg",
     name  : "Naveen sathyamoorthy",
-    role : "Test Lead ",
+    role : "Test Lead engineer",
     about :"I'm passionate about testing, ensuring software quality and reliability through thorough validation, identifying bugs, and enhancing user satisfaction.",
 
 
