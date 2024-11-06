@@ -59,7 +59,7 @@ employee_about.textContent =  styles[increament].about;
 left_button.addEventListener("click",function(){
 increament --;
 if (increament < -1){
-    increament = 0;
+    increament = datas.length-1;
 }
 var styles = datas;
 employee_image.src =styles[increament].employee_img
